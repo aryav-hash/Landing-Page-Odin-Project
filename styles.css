@@ -27,6 +27,9 @@
 .action {
     height: 350px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .end {
@@ -164,4 +167,51 @@
 .quote-by {
     font-size: 24px;
     font-weight: bold;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 175px;
+    border: 1px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.content-head {
+    padding-right: 180px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content-rem {
+    font-size: 20px;
+}
+
+.signup-content {
+    color: white;
+    height: 175px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 3px solid white;
+    padding: 8px 30px 8px 30px;
+    border-radius: 10px;
+}
+
+.signup-button {
+    height: 175px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
