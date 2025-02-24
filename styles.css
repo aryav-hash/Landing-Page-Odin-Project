@@ -215,3 +215,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-end {
+    color: white;
+    font-size: 18px;
+}
